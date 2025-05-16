@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.box {
+    background-color: #7E5109;
+    width: 100%;
+    float: none;
+    text-align: center;
+    margin: 0%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    font-family: 'Playfair Display', serif;
+    font-size: 12px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    line-height: 23px;
+    color: blanchedalmond;
+}
+
+.pizzabox {
+     width: 300px;
+    background: #7E5109;
+    margin: 50px;
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    text-align: center;
+    padding: 15px;
+    color: blanchedalmond;
+    border-radius: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    border: 4px;
+    border-style: solid;
+    border-color: rgb(81, 50, 50);
+}
+
+.pizzabox:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    border-color:#C0392B ;
+}
+
+#bigpizzabox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+}
+
+p {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    text-align: justify;
+}
